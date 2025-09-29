@@ -1,0 +1,7 @@
+body { font-family: system-ui, Arial; margin:0; background:#0f1720; color:#e6eef8; }
+.topbar { display:flex; justify-content:space-between; padding:12px 20px; background:#0b1220; border-bottom:1px solid #233447; }
+.grid { display:grid; grid-template-columns: 1fr 1fr; gap:12px; padding:16px; }
+.card { background:#0b1520; padding:12px; border-radius:8px; border:1px solid #223241; }
+.devices .device { padding:8px; border-bottom:1px solid #112; }
+#feed, #alerts { max-height:280px; overflow:auto; padding-left:12px; }
+.login-card { max-width:360px;margin:60px auto;padding:18px;background:#0b1220;border-radius:8px;text-align:center; }
